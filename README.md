@@ -29,13 +29,13 @@ The driver installation itself must be done from an Administrator console.
 2. List mice:
 
 ```powershell
-python .\mouse_to_ws.py --list
+python .\mouse_to_wsad.py --list
 ```
 
 3. If the HID names are unclear, identify the slot live:
 
 ```powershell
-python .\mouse_to_ws.py --probe
+python .\mouse_to_wsad.py --probe
 ```
 
 Then move each mouse one by one and watch which `slot` number is printed.
@@ -43,13 +43,13 @@ Then move each mouse one by one and watch which `slot` number is printed.
 4. Start mapping for the chosen mouse:
 
 ```powershell
-python .\mouse_to_ws.py --device 11
+python .\mouse_to_wsad.py --device 11
 ```
 
 Two-mouse mode:
 
 ```powershell
-python .\mouse_to_ws.py --ws-device 11 --ad-device 12
+python .\mouse_to_wsad.py --ws-device 11 --ad-device 12
 ```
 
 In this mode both mice use vertical up/down motion:

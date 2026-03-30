@@ -5,10 +5,10 @@ the selected mouse no longer rotates the camera and instead its vertical
 movement emulates W/S. Other mice keep working normally.
 
 Examples:
-    python mouse_to_ws.py --list
-    python mouse_to_ws.py --device 11
-    python mouse_to_ws.py --ws-device 11 --ad-device 12
-    python mouse_to_ws.py --ws-device 11 --ad-device 12 --threshold 3 --release-ms 70
+    python mouse_to_wsad.py --list
+    python mouse_to_wsad.py --device 11
+    python mouse_to_wsad.py --ws-device 11 --ad-device 12
+    python mouse_to_wsad.py --ws-device 11 --ad-device 12 --threshold 3 --release-ms 70
 
 Emergency stop:
     Press F12 to stop the mapper and release W/S.

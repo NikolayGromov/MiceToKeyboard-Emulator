@@ -1,4 +1,4 @@
-# Mouse To W/S Mapper
+# Mouse To W/S A/D Mapper
 
 Windows-only Python script for the first stage of the maze control setup:
 
